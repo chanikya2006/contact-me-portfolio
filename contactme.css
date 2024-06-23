@@ -1,0 +1,257 @@
+body{
+    background-image: url('background6.png') ;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: cover; 
+   /* background-color: navy; */
+   width:100%;
+   height:100%;
+   content:"";
+   margin:0px;
+   
+}
+header{
+   display:inline-block;
+   /* background-color: navy; */
+   
+}
+
+.left{
+   position:absolute;
+   display:inline-block;
+   /* background-color: navy; */
+}
+.left img{
+   margin:15px;
+   height:60px;
+   width:60px;
+   animation:left 2s ;
+   animation-iteration-count: 1;
+   animation-delay:1s;
+}
+.navbar{
+   display:flex;
+   justify-content: center;
+   /* border:2px solid black; */
+   align-items:center;
+   height:90px;
+   /* background-color: navy; */
+        
+
+}
+.details{
+   margin:100px;
+   /* border: 2px solid black; */
+   /* background-color: navy; */
+}
+.details li{
+   list-style: none;
+   float:left;
+   font-size:25px;
+   padding:60px;
+   text-decoration: none;
+   
+}
+.details li a{
+   color:grey;
+   font-family:Mukta;
+   text-decoration: none;  
+}
+.details li a:hover{
+   color:blanchedalmond;
+   font-size:30px;
+   transition:all 0.2s;  
+}
+.details li a.whatsapp{
+   width:20px;
+}
+.details li a.Contact_Me{
+   color:bisque;
+   font-size:27px;
+}
+.socialmedia{   
+   float:right;
+   margin-top:20px;
+   /* margin-top:720px; */
+   margin-right:4px;  
+   /* background-color: navy; */
+}
+.whatsapp{
+   width:40px;
+   height:40px;
+   margin-right:15px;
+}
+.whatsapp:hover{
+   width:45px;
+   height:45px;
+   transition:all 0.3s;
+}
+.instagram{
+   width:40px;
+   height:40px;
+   margin-right:20px;
+   margin-left:40px;
+}
+.instagram:hover{
+   width:45px;
+   height:45px;
+   transition:all 0.3s;
+}
+.number{
+   font-family: Cabin;
+   color:white;
+   text-align: center;
+   margin-right:60px;
+   margin-left:-70px
+}
+.contact{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+.contact img{
+    width:50px;
+}
+.contact img:hover{
+    width:70px;
+    transition:all;
+    transition-duration: 0.5s;
+}
+.email{
+    margin-left:20px;
+    margin-top:100px;
+    font-size:25px;
+}
+.email h5{
+    font-size:20px;
+    color:white;
+    margin-bottom:20px;
+    margin-left:80px;
+    margin-top:-40px;
+    font-family: Mukta;
+}
+#form{
+    margin-left:100px;
+    margin-top:0px;
+    font-size:20px;
+    color:darkgreen;
+    font-family:sans-serif;
+    border:2px solid black;
+    width:700px;
+    background-color:lightgrey;
+}
+#form h2{
+    color:navy;
+    margin-left:30px;
+}
+.fields input{
+    font-size:15px;
+    padding:10px;
+    margin:10px;
+    width:300px;
+    border:4px solid maroon;
+}
+.fields textarea{
+    margin-left:25px;
+    border:4px solid maroon;
+    font-size:15px;
+    font-family: Open Sans;
+}
+.fields{
+    padding-left:20px;
+    padding-bottom:10px;
+
+}
+.submit{
+    margin-left:120px;
+    width:300px;
+    font-size:20px;
+    cursor:pointer;
+    background-color: navy;
+    color:white;
+}
+.submit:hover{
+   background-color:lightgoldenrodyellow;
+   color:black;
+}
+.fields span{
+   color:red;
+}
+@media (min-width:1219px) and (max-width:1436px){
+   .whatsapp{
+      margin-top:-100px;
+      margin-right:-100px;
+      margin-left:-50px;
+      
+   }
+   .number{
+      margin-right:-20px;
+   }
+   .instagram{
+      margin-right:-400px;
+      margin-left:100px;
+   }
+   .image{
+      margin-top:100px;
+      
+   }
+}
+@media (min-width:300px) and (max-width:600px){
+   header{
+      
+      font-size:15px;
+   }
+   .navbar{
+      display:block;
+   }
+   
+   .whatsapp{
+      margin-left:-280px;
+      margin-top:400px;
+   }
+   .number{
+      margin-left:-430px;
+   }
+   #form{
+      margin-top:-500px;
+   }
+}
+@media (min-width:601px) and (max-width:800px){
+   header{
+      
+      font-size:15px;
+   }
+   .navbar{
+      display:block;
+   }
+   
+   .whatsapp{
+      margin-left:-500px;
+      margin-top:600px;
+   }
+   .number{
+      margin-left:-830px;
+   }
+   #form{
+      margin-top:-250px;
+   }
+}
+@media (min-width:801px) and (max-width:1200px){
+   header{
+      
+      font-size:15px;
+   }
+   .navbar{
+      display:block;
+   }
+   
+   .whatsapp{
+      margin-left:-700px;
+      margin-top:700px;
+   }
+   .number{
+      margin-left:-1130px;
+   }
+   #form{
+      margin-top:-150px;
+   }
+}
